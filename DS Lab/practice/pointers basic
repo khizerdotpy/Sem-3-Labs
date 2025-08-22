@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int a;
+    int *arr;
+    arr=&a;
+
+    cout<<"Enter value for a: ";
+    cin>>a;
+
+    cout<<"The value stored in pointer derefrenced: "<< *arr<<endl;
+    cout<<"The address stored of pointer: "<<arr<<endl;
+
+
+    return 0;
+}
